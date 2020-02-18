@@ -6,3 +6,8 @@
   height:300px;
   justify-content: space-around;
 }
+
+.div{
+  border: 2px solid blue;
+  height: 30px;
+}
