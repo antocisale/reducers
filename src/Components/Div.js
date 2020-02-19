@@ -6,7 +6,7 @@ const Div = ()=>{
     const {value} = useContext(InputContext);
     return(
         <div className="div">
-            <Span value={value}></Span>
+            <Span></Span>
         </div>
     )
 }

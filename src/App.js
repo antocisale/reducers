@@ -22,7 +22,7 @@ const App =()=> {
         }
       }>
       <Input changeValue={changeValue}></Input>
-      <Div value={value}></Div>
+      <Div></Div>
       </InputContext.Provider>
     </div>
   );

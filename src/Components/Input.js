@@ -6,4 +6,4 @@ const Input =({changeValue})=>{
     )
 }
 
-export default Input
+export default Input;
