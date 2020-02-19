@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import InputContext from '../InputContext';
 
-const Input =({changeValue})=>{
+const Input =()=>{
+    const {setValue} = useContext(InputContext)
+    
     return(
-        <input type="text" onChange={e=>{changeValue(e.target.value)}}/>
+        <input type="text" onChange={e=>{setValue(e.target.value)}}/>
     )
 }
 

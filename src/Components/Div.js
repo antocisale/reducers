@@ -4,6 +4,7 @@ import InputContext from '../InputContext';
 
 const Div = ()=>{
     const {value} = useContext(InputContext);
+    
     return(
         <div className="div">
             <Span></Span>

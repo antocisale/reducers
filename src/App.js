@@ -9,19 +9,15 @@ import InputContext from './InputContext';
 const App =()=> {
   const [value, setValue] = useState("");
 
-  const changeValue = (valor)=>{
-    setValue(valor)
-  }
-
   return (
     <div className="container">
       <InputContext.Provider value={
         {
           value,
-        changeValue
+        setValue
         }
       }>
-      <Input changeValue={changeValue}></Input>
+      <Input></Input>
       <Div></Div>
       </InputContext.Provider>
     </div>
